@@ -19,6 +19,7 @@ nav {
     font-size: 45px;
     font-weight: 800;
     line-height: normal;
+    margin-left: -30px;
 }
 
 .text-primary {
@@ -258,11 +259,10 @@ main {
     line-height: 28px;
 }
 
-.left-resume-container {
-    width: 450px;
-    height: 350px;
-    margin-bottom: -40px;
-}
+/* .left-resume-container { */
+/* width: 450px; */
+/* height: 350px; */
+
 
 .titles {
     color: #181818;
@@ -270,4 +270,55 @@ main {
     font-size: 35px;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.left-container,
+.right-container {
+    width: 450px;
+
+}
+
+.resume-container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.download-cv {
+    text-align: center;
+    padding-top: 60px;
+}
+
+/* footer scetion start from here */
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #FFF8F3;
+    margin-top: 110px;
+     padding-left: 200px; 
+    padding-right: 180px; 
+}
+
+.title-name-footer{
+    color:#181818;
+font-size: 30px;
+padding-top: 130px;
+}
+
+.footer-title{
+ width: 40%;
+}
+
+.formss input[type="text"], .formss input[type="email"], textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border: none;
+    outline: none;
+    width: 90%;
 }
